@@ -6,33 +6,35 @@
 <body>
 <style>
 h1{color:blue;}
-#table1 {
+.table1 {
     border-collapse: collapse;
-	 border: 1px solid black;
+	border: 1px solid black;
 	 
 }
-#table2 {
-    border-collapse: collapse;
-	
-}
 
-#table1 th,#table1 td{ border: 1px solid black;
+.table1  th{ border: 1px solid black;
 			
 			}
+.table1 > tbody > tr > td{ border: 1px solid black;
+			
+			}{ border: 1px solid black;
+			
+			}
+
 	
 </style>
 
 <center><h1>KuttyMuth the best</h1><center>
-<table id="table1">
+<table class="table1">
 <tr>
 <th>Image</th><th>Name</th>
 </tr>
 <tr>
-<td id="t1"><table id="table2"><tr><td><img src="vava.jpeg" width=50px></td></tr><td><img src="muth.jpeg" width=50px></td></tr></table></td>
+<td><table class="table2"><tr><td><img src="vava.jpeg" width=50px></td></tr><td><img src="muth.jpeg" width=50px></td></tr></table></td>
 <td>Vaava</td>
 </tr>
 <tr>
-<td id="t2"><img src="kuttu.jpeg" width=50px></td>
+<td><img src="kuttu.jpeg" width=50px></td>
 <td>Kuttu</td>
 </tr>
 </table>
